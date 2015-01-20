@@ -1,0 +1,4 @@
+rd2_view: libcs680.a cs680.o
+
+cs680.o: cs680.cc bezier.cc
+	g++ -o rd2_view -Wall cs680.cc bezier.cc libcs680.a -L/opt/X11/lib -lX11 -lm 

@@ -1,0 +1,2 @@
+All:
+	g++ -o balls -Wall -w dynParticles.cc
